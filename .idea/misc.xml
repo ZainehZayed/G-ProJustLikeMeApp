@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-anydpi/ic_Public.xml" value="0.1145" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-anydpi/ic_done_name.xml" value="0.1665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-anydpi/ic_group_primary.xml" value="0.163" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-anydpi/ic_send.xml" value="0.1665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/black_gradient.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/circle_bg.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/edittext_button_style_rounded.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_create_black_24dp.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_exit_to_app_black_24dp.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_home_black_24dp.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_launcher_background.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_launcher_round.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_person_black_24dp.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/ic_settings_black_24dp.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/popup_edittext_style.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-hdpi/side_nav_bar.xml" value="0.2565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-v24/background_left.xml" value="0.124" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-v24/background_right.xml" value="0.124" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-v24/et_text.xml" value="0.155" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1265" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1235" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_add_post.xml" value="0.11005434782608696" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_admain_test.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_admin.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_chat2.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_comm2.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_community.xml" value="0.11676798378926039" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_community2.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_community_chat.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_group_participant_add.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_message.xml" value="0.1160081053698075" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_org.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_post_add.xml" value="0.11005434782608696" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_post_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_register.xml" value="0.144" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_start.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_user_type.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/activity_user_typr.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/app_bar_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/barlayout.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/chat_item_left.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/chat_item_right.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/content_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/del_2.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/fragment_chats.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/fragment_community.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/fragment_post.xml" value="0.11005434782608696" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/fragment_profile.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/fragment_users.xml" value="0.16259057971014493" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/layoutofusers.xml" value="0.1160081053698075" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/list2.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/popup_add_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/row_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/row_groupchat_left.xml" value="0.2359375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/row_groupchat_right.xml" value="0.2359375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/row_groupchats_list.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/row_participent_list.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/row_post_item.xml" value="0.20437956204379562" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/menu/main_menu.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/menu/menu_nav.xml" value="0.24537037037037038" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/GproJustLikeMeApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.163" />
+        <entry key="..\:/Users/User/Desktop/GproJustLikeMeApp/app/src/main/res/layout/popup_add_post.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

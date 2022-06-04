@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "411058560964",
+    "project_id": "g-pro-justlikemeapp",
+    "storage_bucket": "g-pro-justlikemeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411058560964:android:f7c505c0827a795088ce91",
+        "android_client_info": {
+          "package_name": "com.example.g_pro_justlikemeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411058560964-6dff55blevqqkkm5gmfb2s70th1vsuda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.g_pro_justlikemeapp",
+            "certificate_hash": "c24ef6410300b612a70a8943083664cd574959a4"
+          }
+        },
+        {
+          "client_id": "411058560964-eufpmcunkc5o0875ge9idnag8rt83gho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgamw0ck7_O_P2UTvf6Bzdy3aDo5xftoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411058560964-eufpmcunkc5o0875ge9idnag8rt83gho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
