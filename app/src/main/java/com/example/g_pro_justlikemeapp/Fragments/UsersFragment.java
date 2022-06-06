@@ -63,11 +63,14 @@ public class UsersFragment extends Fragment {
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
+                search_users(charSequence.toString().toLowerCase());
 
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
+                search_users(editable.toString().toLowerCase());
+
 
             }
         });
