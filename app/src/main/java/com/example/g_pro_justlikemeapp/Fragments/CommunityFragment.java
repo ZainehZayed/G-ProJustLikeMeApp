@@ -65,13 +65,15 @@ public class CommunityFragment extends Fragment {
                 CommunityChatList.size();
                 for(DataSnapshot ds: snapshot.getChildren())
                 {
-                    if(!ds.child("participant").child(firebaseAuth.getUid()).exists())
+                    if(ds.child("participant").child(firebaseAuth.getUid()).exists())
                     { CommunityChat model=ds.getValue(CommunityChat.class);
                         CommunityChatList.add(model);
 
 
 
                     }
+                    else {CommunityChat model=ds.getValue(CommunityChat.class);
+                        CommunityChatList.add(model);}
                 }
                 communityChatAdapter=new CommunityChatAdapter(getActivity(),CommunityChatList);
                 groupsRv.setAdapter(communityChatAdapter);

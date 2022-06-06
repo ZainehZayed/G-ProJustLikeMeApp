@@ -1,0 +1,895 @@
+add med  valide$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+package com.example.just like me mobeil  chat app;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Description;
+import org.hamcrest.Matcher;
+import org.hamcrest.TypeSafeMatcher;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class AddMedValid {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Test
+    public void mainActivityTest() {
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.id.email),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.emailError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText.perform(replaceText("Zaina@gmail.com"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.Email.login), withText("Login"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                2),
+                        isDisplayed()));
+        materialButton.perform(click());
+
+        ViewInteraction materialButton2 = onView(
+                
+                                allOf(withId(R.Email.gridLayout),
+                                        childAtPosition(
+                                                withClassName(is("androidx.constraintlayout.widget.ConstraintLayout")),
+                                                1)),
+                                0),
+                        isDisplayed()));
+        materialButton2.perform(click());
+
+        ViewInteraction appCompatEditText3 = onView(
+                allOf(withId(R.Email),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText3.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText4 = onView(
+                
+                                childAtPosition(
+                                        withId(R.Email.emailError1),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText4.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText5 = onView(
+                allOf(withId(R.Email.how_many_doses),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.emailError11),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText5.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton3 = onView(
+                
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                3)));
+        materialButton3.perform(scrollTo(), click());
+    }
+
+    
+     
+    
+
+
+
+
+instrumented test$$$$$$$$$$$$$$$$$$$$$$$$$
+package com.example.just like me mobeil  chat app;
+
+import android.content.Context;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.platform.app.InstrumentationRegistry;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import static org.junit.Assert.*;
+
+/**
+ * Instrumented test, which will execute on an Android device.
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+@RunWith(AndroidJUnit4.class)
+public class ExampleInstrumentedTest {
+    @Test
+    public void useAppContext() {
+
+        // Context of the app under test.
+        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+        assertEquals("com.example.ihealth", appContext.getPackageName());
+    }
+}
+
+
+
+invalid med$$$$$$$$$$$$$$$$$$4
+package com.example.just like  me mobeil chat app;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Description;
+import org.hamcrest.Matcher;
+import org.hamcrest.TypeSafeMatcher;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class InvalidMed {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Test
+    public void invalidMed() {
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.Email.pass),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.emailError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText.perform(replaceText("Zaina@gmail.com"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.Email.password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.Email.login), withText("Login"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                2),
+                        isDisplayed()));
+        materialButton.perform(click());
+
+        ViewInteraction materialButton2 = onView(
+                
+                        childAtPosition(
+                                allOf(withId(R.Email.gridLayout),
+                                        childAtPosition(
+                                                withClassName(is("androidx.constraintlayout.widget.ConstraintLayout")),
+                                                1)),
+                                0),
+                        isDisplayed()));
+        materialButton2.perform(click());
+
+        ViewInteraction appCompatEditText3 = onView(
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText3.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton3 = onView(
+                
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                3)));
+        materialButton3.perform(scrollTo(), click());
+    }
+
+    private static Matcher<View> childAtPosition(
+            final Matcher<View> parentMatcher, final int position) {
+
+        return new TypeSafeMatcher<View>() {
+            @Override
+            public void describeTo(Description description) {
+                description.appendText("Child at position " + position + " in parent ");
+                parentMatcher.describeTo(description);
+            }
+
+            @Override
+            public boolean matchesSafely(View view) {
+                ViewParent parent = view.getParent();
+                return parent instanceof ViewGroup && parentMatcher.matches(parent)
+                        && view.equals(((ViewGroup) parent).getChildAt(position));
+            }
+        };
+    }
+}
+
+
+
+login test$$$$$$$$$$$$$$$$$$$$$$
+package com.example.just like me mobeil app ;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Description;
+import org.hamcrest.Matcher;
+import org.hamcrest.TypeSafeMatcher;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class InvalidMed {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Test
+    public void invalidMed() {
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.Email.pass),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.emailError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText.perform(replaceText("Zaina@gmail.com"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.Email.pass),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.Email.login), withText("Login"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                2),
+                        isDisplayed()));
+        materialButton.perform(click());
+
+        ViewInteraction materialButton2 = onView(
+                
+                        childAtPosition(
+                                allOf(withId(R.Email.gridLayout),
+                                        childAtPosition(
+                                                withClassName(is("androidx.constraintlayout.widget.ConstraintLayout")),
+                                                1)),
+                                0),
+                        isDisplayed()));
+        materialButton2.perform(click());
+
+        ViewInteraction appCompatEditText3 = onView(
+                
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText3.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton3 = onView(
+                
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                3)));
+        materialButton3.perform(scrollTo(), click());
+    }
+
+    private static Matcher<View> childAtPosition(
+            final Matcher<View> parentMatcher, final int position) {
+
+        return new TypeSafeMatcher<View>() {
+           
+
+
+
+
+login patient valid$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+package com.example.just like me mobeil chat app;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Description;
+import org.hamcrest.Matcher;
+import org.hamcrest.TypeSafeMatcher;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class LoginPatientValid {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    
+                        isDisplayed()));
+        appCompatEditText.perform(replaceText("Zaina@gmail.com"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.Email.password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.id.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.Email.login), withText("Login"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                2),
+                        isDisplayed()));
+        materialButton.perform(click());
+    }
+
+    
+}
+
+
+ main activity not valid $$$$$$$$$$$$$$$$$$$$$$$$$$
+package com.example.just like me mobeil chat app;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.Espresso.pressBack;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Description;
+import org.hamcrest.TypeSafeMatcher;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class MainActivityNotValid {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Test
+    public void mainActivityNotValid() {
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.id.login_assistant), withText("Login Assistant"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                3),
+                        isDisplayed()));
+        materialButton.perform(click());
+
+        pressBack();
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.Email.pass),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.emailError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.Email.pass),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton2 = onView(
+                allOf(withId(R.Email.login), withText("Login"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                2),
+                        isDisplayed()));
+        materialButton2.perform(click());
+
+        ViewInteraction materialButton3 = onView(
+                allOf(withId(R.Email.login), withText("Login"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                2),
+                        isDisplayed()));
+        materialButton3.perform(click());
+    }
+
+    
+}
+
+ register $$$$$$$$$$$$$$$$$$$$$$
+package com.example.just like me mobeil chat app;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Description;
+import org.hamcrest.Matcher;
+import org.hamcrest.TypeSafeMatcher;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class Register {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Test
+    public void register() {
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.Email.register_go), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                4),
+                        isDisplayed()));
+        materialButton.perform(click());
+
+        ViewInteraction appCompatEditText = onView(
+                allOf(withId(R.Email.reg_name),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText.perform(replaceText("Leen@gmail.com"), closeSoftKeyboard());
+
+        
+                        isDisplayed()));
+        materialRadioButton.perform(click());
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.Email.reg_name), withText("New2@gmail.com"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("666666"));
+
+        ViewInteraction appCompatEditText3 = onView(
+                allOf(withId(R.Email.reg_name),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText3.perform(closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText4 = onView(
+                allOf(withId(R.Email.reg_name),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText4.perform(click());
+
+        ViewInteraction appCompatEditText5 = onView(
+                allOf(withId(R.Email.reg_name),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.nameError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText5.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText6 = onView(
+                allOf(withId(R.Email.reg_email),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.emailError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText6.perform(replaceText("Zaina@gmail.com"), closeSoftKeyboard());
+
+        
+
+        ViewInteraction appCompatEditText8 = onView(
+                allOf(withId(R.Email.reg_password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText8.perform(replaceText("666666"), closeSoftKeyboard());
+
+        
+                                       
+                                
+                        isDisplayed()));
+        checkableImageButton.perform(click());
+
+        ViewInteraction materialButton2 = onView(
+                allOf(withId(R.Email.register), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                
+
+
+ register not valid $$$$$$$$$$$$$$$$$$$$$444
+package com.example.just like me mobeil chat app ;
+
+
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.action.ViewActions.closeSoftKeyboard;
+import static androidx.test.espresso.action.ViewActions.replaceText;
+import static androidx.test.espresso.action.ViewActions.scrollTo;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withClassName;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+import static org.hamcrest.Matchers.allOf;
+import static org.hamcrest.Matchers.is;
+
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
+
+import androidx.test.espresso.ViewInteraction;
+import androidx.test.filters.LargeTest;
+import androidx.test.rule.ActivityTestRule;
+import androidx.test.runner.AndroidJUnit4;
+
+import org.hamcrest.Descript
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+@LargeTest
+@RunWith(AndroidJUnit4.class)
+public class RegisterNotValid {
+
+    @Rule
+    public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
+    @Test
+    public void registerNotValid() {
+        ViewInteraction materialButton = onView(
+                allOf(withId(R.Email.register_go), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                4),
+                        isDisplayed()));
+        materialButton.perform(click());
+
+      
+                                
+                        isDisplayed()));
+        materialRadioButton.perform(click());
+
+        
+
+        ViewInteraction appCompatEditText2 = onView(
+                allOf(withId(R.Email.reg_email),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.emailError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText2.perform(replaceText("Leen@gmail.com"), closeSoftKeyboard());
+
+        
+                        
+        ViewInteraction appCompatEditText4 = onView(
+                allOf(withId(R.Email.reg_password),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(R.Email.passError),
+                                        0),
+                                0),
+                        isDisplayed()));
+        appCompatEditText4.perform(replaceText("666666"), closeSoftKeyboard());
+
+        ViewInteraction materialButton2 = onView(
+                allOf(withId(R.Email.register), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                5)));
+        materialButton2.perform(scrollTo(), click());
+
+        ViewInteraction materialButton3 = onView(
+                allOf(withId(R.id.register), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                5)));
+        materialButton3.perform(scrollTo(), click());
+
+        ViewInteraction materialButton4 = onView(
+                allOf(withId(R.Email.register), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                5)));
+        materialButton4.perform(scrollTo(), click());
+
+        ViewInteraction materialButton5 = onView(
+                allOf(withId(R.Email.register), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                5)));
+        materialButton5.perform(scrollTo(), click());
+
+        ViewInteraction materialButton6 = onView(
+                allOf(withId(R.id.register), withText("Register"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withClassName(is("androidx.cardview.widget.CardView")),
+                                        0),
+                                5)));
+        materialButton6.perform(scrollTo(), click());
+    
+}
+
+
+
+
+// example unit text $$$$$$$$$$$$$$$$4
+package com.example.just like me mobeil chat app;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+public class ExampleUnitTest {
+    @Test
+    public void addition_isCorrect() {
+        assertEquals(4, 2 + 2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// login unit$$$$$$$$$$$$$$$$$$$
+package com.example.just like me mobeil chat app ;
+import org.junit.Assert;
+import org.junit.Test;
+import org.mockito.Mockito;
+
+import java.util.Date;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertEquals;
+
+
+import com.example.ihealth.Testing.LoginUnitTesting;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.core.View;
+
+
+public class LoginUnit {
+    @Test
+    public void testIsEmailValid() {
+        String testEmail = "Zaina@gmail.com";
+        Assert.assertThat(String.format("Email Validity Test failed for %s ", testEmail), LoginUnitTesting.checkEmailForValidity(testEmail), is(true));
+    }
+    @Test
+    public void testIsEmailValid1() {
+        String testEmail = "Leen@gmail.com";
+        Assert.assertThat(String.format("Email Validity Test failed for %s ", testEmail), LoginUnitTesting.checkEmailForValidity(testEmail), is(true));
+    }
+    @Test
+    public void testPasswordValid() {
+        String password = "666666";
+        Assert.assertThat(String.format("Email Validity Test failed for %s ", password), LoginUnitTesting.CheckSizePassword(password), is(true));
+    }
+    @Test
+    public void testLengthPassword() {
+//    LoginUnitTesting.
+    }
+}
+

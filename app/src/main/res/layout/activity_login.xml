@@ -50,14 +50,15 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                app:passwordToggleEnabled="true"
                 android:hint="Password"
-                app:endIconMode="password_toggle"
                 app:startIconDrawable="@drawable/ic_launcher_foreground">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/log_pass2"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:layout_height="100dp"
+                    android:inputType="textPassword"/>
             </com.google.android.material.textfield.TextInputLayout>
 
 
