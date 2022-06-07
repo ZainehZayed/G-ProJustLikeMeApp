@@ -1,6 +1,5 @@
 package com.example.g_pro_justlikemeapp.Fragments;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -8,15 +7,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.g_pro_justlikemeapp.Adapter.CommunityChatAdapter;
-import com.example.g_pro_justlikemeapp.Community_participantAdd_Activity;
+import com.example.g_pro_justlikemeapp.Adapter.CommunityAdapter;
 import com.example.g_pro_justlikemeapp.Model.CommunityChat;
 import com.example.g_pro_justlikemeapp.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -27,7 +22,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Locale;
 
 
 public class CommunityFragment extends Fragment {
@@ -36,7 +30,7 @@ public class CommunityFragment extends Fragment {
     private FirebaseAuth firebaseAuth;
     Button Add;
     private ArrayList<CommunityChat> CommunityChatList;
-    private CommunityChatAdapter communityChatAdapter;
+    private CommunityAdapter communityAdapter;
     String myGroupRole,groupId;
     public CommunityFragment() {
         // Required empty public constructor
@@ -75,8 +69,8 @@ public class CommunityFragment extends Fragment {
                     else {CommunityChat model=ds.getValue(CommunityChat.class);
                         CommunityChatList.add(model);}
                 }
-                communityChatAdapter=new CommunityChatAdapter(getActivity(),CommunityChatList);
-                groupsRv.setAdapter(communityChatAdapter);
+                communityAdapter =new CommunityAdapter(getActivity(),CommunityChatList);
+                groupsRv.setAdapter(communityAdapter);
             }
 
             @Override
@@ -103,8 +97,8 @@ public class CommunityFragment extends Fragment {
 
                     }
                 }
-                communityChatAdapter=new CommunityChatAdapter(getActivity(),CommunityChatList);
-                groupsRv.setAdapter(communityChatAdapter);
+                communityAdapter =new CommunityAdapter(getActivity(),CommunityChatList);
+                groupsRv.setAdapter(communityAdapter);
             }
 
             @Override
