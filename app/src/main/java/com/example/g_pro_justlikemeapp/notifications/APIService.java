@@ -1,4 +1,4 @@
-package com.example.g_pro_justlikemeapp.Fragments;
+package com.example.g_pro_justlikemeapp.notifications;
 
 import com.example.g_pro_justlikemeapp.notifications.Response;
 import com.example.g_pro_justlikemeapp.notifications.Sender;

@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.g_pro_justlikemeapp.Adapter.MessageAdapter;
-import com.example.g_pro_justlikemeapp.Fragments.APIService;
+import com.example.g_pro_justlikemeapp.notifications.APIService;
 import com.example.g_pro_justlikemeapp.Model.Chats;
 import com.example.g_pro_justlikemeapp.Model.Users;
 import com.example.g_pro_justlikemeapp.notifications.Client;
